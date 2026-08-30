@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>ESP32 js-dos</title>
+
+  <link
+    rel="stylesheet"
+    href="/dos/artifacts/js/css/main.css"
+  >
+
+  <!-- js-dos runtime -->
+  <link
+    rel="stylesheet"
+    href="/dos/artifacts/js/js-dos/js-dos.css"
+  >
+
+  <script
+    src="/dos/artifacts/js/js-dos/js-dos.js">
+  </script>
+</head>
+
+<body>
+
+  <header>
+
+    <h1>ESP32 js-dos</h1>
+
+    <button id="refreshButton">
+      Refresh
+    </button>
+
+    <label class="uploadButton">
+      Choose .jsdos
+
+      <input
+        id="fileInput"
+        type="file"
+        accept=".jsdos"
+      >
+    </label>
+
+    <button id="uploadButton">
+      Upload
+    </button>
+
+    <span id="status">
+      Ready
+    </span>
+
+  </header>
+
+
+  <main>
+
+    <section id="games">
+
+      <h2>Games</h2>
+
+      <div id="gameList">
+        Loading...
+      </div>
+
+    </section>
+
+
+    <section
+      id="playerScreen"
+      hidden
+    >
+
+      <div id="player"></div>
+
+      <button id="backButton">
+        Back to games
+      </button>
+
+    </section>
+
+  </main>
+
+
+  <script src="/dos/artifacts/js/main.js"></script>
+
+</body>
+</html>
