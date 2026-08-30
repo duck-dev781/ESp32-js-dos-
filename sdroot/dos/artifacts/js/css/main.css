@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body { font-family: system-ui, sans-serif; background: #0f172a; color: #e5e7eb; }
+.topbar { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:18px 5%; background:#111827; border-bottom:1px solid #334155; }
+h1 { margin:0 0 4px; font-size:1.7rem; }
+.topbar span { color:#94a3b8; font-size:.9rem; }
+.network { font-family:monospace; color:#93c5fd; }
+main { width:min(1100px,94vw); margin:24px auto; }
+.card { background:#1e293b; border:1px solid #334155; border-radius:14px; padding:20px; margin-bottom:18px; }
+.sectionTitle { display:flex; justify-content:space-between; align-items:center; gap:15px; }
+h2 { margin-top:0; }
+button { border:0; border-radius:8px; padding:9px 14px; cursor:pointer; font-weight:700; background:#e5e7eb; color:#111827; }
+button:disabled { opacity:.5; cursor:wait; }
+button.danger { background:#fecaca; }
+input { max-width:100%; margin:8px 8px 8px 0; }
+.status { min-height:1.4em; color:#cbd5e1; }
+.game { display:flex; justify-content:space-between; align-items:center; gap:14px; padding:12px; margin:8px 0; border-radius:10px; background:#0f172a; }
+.gameName { overflow:hidden; text-overflow:ellipsis; }
+.gameButtons { display:flex; gap:8px; flex-wrap:wrap; }
+.playerCard { min-height:500px; }
+.dosPlayer { width:100%; min-height:440px; background:#000; border-radius:10px; overflow:hidden; }
+code { color:#bfdbfe; }
