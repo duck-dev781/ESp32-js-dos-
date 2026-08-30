@@ -1,0 +1,1 @@
+put the dogs folder on your SD card make sure you flashed the info file on the esp32
