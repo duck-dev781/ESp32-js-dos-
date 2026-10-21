@@ -1,14 +1,5 @@
 # ESp32-js-dos-
 porting js-dos http AP server to Esp32 whith well the internet
-# HI
-hi
-hi
-duck
-goose
-cranberry
-codex,replit,CHATGPT,Mario,base64,your mom and more
-bla bla bal 
-
 
 
 
