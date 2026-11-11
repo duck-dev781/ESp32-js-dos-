@@ -5,7 +5,7 @@ porting js-dos http AP server to Esp32 whith well the internet
 
 
 
-hi the text above can not be deleted idk why and a person hacked my acount and its stuck like that so pls ignore it
+hi the text below can not be deleted idk why and a person hacked my acount and its stuck like that so pls ignore it
 
 
 
