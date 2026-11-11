@@ -5,9 +5,7 @@ porting js-dos http AP server to Esp32 whith well the internet
 
 
 
-
-this repo will be deleted in 5 days if no one uses this 
-
+hi the text above can not be deleted idk why and a person hacked my acount and its stuck like that so pls ignore it
 
 
 
